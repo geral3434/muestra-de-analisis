@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2? family=Pacifico&family=Poppins:wght@300;400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(/imagen\ para\ ingenierias.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto; 
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo{
+    height: 80px;
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+}
+.menu .navbar ul{
+    list-style: none;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.menu .navbar ul li a{
+    font-size: 20px;
+    padding: 22px;
+    color: #ffffff;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: rgb(16, 158, 16);
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-text{
+    text-align: center;
+    width: 700px;
+
+}
+.header-text h1{
+    color: #ffffff;
+    font-size: 55px;
+
+}
+.header-text p{
+    color: #ffffff;
+    margin-top: 35px;
+}
+.btn-1{
+    display: inline-block;
+    background-color: rgb(33, 184, 33);
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.btn-1:hover{
+    background-color:rgb(30, 172, 30);
+}
+.dataset-conteiner{
+    text-align: center;
+    color: rgb(45, 25, 25);
+    background-position: center;
+    position: relative;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    background-color: aliceblue;
+}
+.dataset-conteiner h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.dataset-conteiner p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.info-data li{
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    width: 100%;
+    margin: 18px;
+}
+.filas li {
+    font-size: 20px;
+    padding:5px;
+    text-align: justify;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.sub2{
+    font-size: 35px;
+    margin-bottom: 20px; 
+    padding: 15px;
+    width: 100%;
+}
+.variables li{
+    text-align: justify;
+    font-size: 20px;
+    padding:5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+.btn-2{
+    display: inline-block;
+    background-color: rgb(33, 184, 33);
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.btn-2:hover{
+    background-color:rgb(30, 172, 30);
+}
+body{
+ background-color: aliceblue;
+}
+.analisis{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(229, 243, 255);
+}
+.analisis h4{
+    font-size: 60px;
+    text-align: center;
+    line-height: 2;
+}
+.analisis h5{
+    font-size: 30px;
+    text-align: center;
+} 
+.analisis li a{
+    font-size: 25px;
+    text-align: center;
+    padding:15px;
+    width: 100%;
+    margin-top: 20px;
+    line-height:3;
+    border: 5px;
+}
+.btn-3{
+    display: inline-block;
+    background-color: rgb(33, 184, 33);
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.btn-3:hover{
+    background-color:rgb(30, 172, 30); ;
+}
+@media (max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: aliceblue;
+        border-top: 1px solid (0,0,0,0.1);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+
+    }
+    #menu
+}
+
+

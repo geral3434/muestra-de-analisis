@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family=Pacifico&family=Poppins:wght@300;400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    font-family: 'poppins';
+
+
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+}
+div{
+    font-family: 'poppins';
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-color: aliceblue;
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+div h1{
+    font-size: 45px;
+    text-align: center;
+    color: black;
+}
+div p{
+    font-size: 25px;
+    text-align: center;
+    color:black;
+}
+div{
+   text-align: center;
+}
+@media only screen and (max-width:600px){
+    div{
+        font-family: 'poppins';
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
+        display: fixed;
+        background-position-y: center;
+        overflow-y: auto;
+    }
+    div h1{
+        font-size: 45px;
+        text-align: center center;
+        color: black;
+        font-display: center;
+    }
+    div p{
+        font-size: 25px;
+        text-align: center;
+        color: black;
+    }
+    div{
+       text-align: center;
+    }
+}
